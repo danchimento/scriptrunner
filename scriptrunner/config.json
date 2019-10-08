@@ -1,0 +1,24 @@
+{
+  "scripts": [
+    {
+      "name": "Create car",
+      "command": "createcar",
+      "path": "scripts\\CreateCar.sql",
+      "params": [
+        {
+          "name": "Make",
+          "defaultValue": "Honda"
+        },
+        {
+          "name": "Model",
+          "defaultValue": "Civic"
+        }
+      ]
+    },
+    {
+      "name": "Get cars",
+      "command": "getcars",
+      "path": "scripts\\GetCars.sql"
+    }
+  ]
+}
